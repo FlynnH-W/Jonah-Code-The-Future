@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FH-W Homepage</title>
+    <link rel="stylesheet" href="csstest.css">
+</head>
+<body>
+     <!-- This is the background video -->
+    
+     <div class="vidbg"> <video src="backvideo.mp4" autoplay loop playsinline muted> </video></div>
+
+    <!-- This is the navigation bar (split into four divs) -->
+    
+    <div class="navigation">
+    
+    <!-- Start of the three split divs -->
+
+    <!-- First Div; Home SVG icon -->
+
+    <div class="navbar1">
+        <a href="#sec1">
+        <img src="home.png" alt="home" height="40" style="border: 0; padding-left: 10px; padding-top: 7px; padding-right: 5px; filter:invert()">
+        </a>
+        <span style="border-right: 5px solid rgba(255, 255, 255, 0.5); border-radius: 2.5px; padding-top: 5px; padding-left: 10px;padding-bottom: 15px;"></span>
+    </div>
+
+    <!-- Second Div; Empty Space -->
+
+    <div class="navbar2">
+        
+    </div>
+
+    <!-- Third Div; Navigation -->
+
+    <div class="navbar3">
+        <A href="#sec2" button class="btn info">About</A>
+        <span style="border-right: 5px solid rgba(255, 255, 255, 0.5);padding-top: 15px;padding-bottom: 10px;"></span>
+        <A href="#sec3" button class="btn warning">Slideshow</A>
+        <span style="border-right: 5px solid rgba(255, 255, 255, 0.5);padding-top: 15px;padding-bottom: 10px;"></span>
+        <A href="#sec4" button class="btn danger">Table</A>
+        <span style="border-right: 5px solid rgba(255, 255, 255, 0.5);padding-top: 15px;padding-bottom: 10px;"></span>
+        <A href="#sec5" button class="btn default">Form</A>
+    </div>
+    </div>
+
+<br>
+
+    <!-- Top line of text -->
+
+    <div class="transparent2" style="font-size:75px;">
+        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" id="sec1"> <b>Flynn H-W</b> </p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div class="inttext" id="sec2">
+        <b>Welcome to my Website!</b>
+        <br>
+        <br>
+        This website is a show of my learnt skills on HTML and CSS.
+        <br>
+        This is purely a proof of concept website, showcasing code that I have written.
+        <br>
+        <br>
+        <br>
+        <i>I hope you enjoy looking at it!</i>
+
+    </div>
+
+    <div class="imageright">
+        <img src="htmlimg.png" style="border: 0px;height: 235px; border-radius: 25px;">
+    </div>
+
+    <div class="solidblock">
+        <div class="textbox" style="text-align: center; padding-top: 125px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div>
+            <h1 style="color: white;">- Marcus Tullius Cicero</h1>
+        </div>
+    </div>
+
+    <div class="solidblock2" style="margin-top: 0px; background-color: rgba(15, 15, 15, 0.9); padding-top: 50px; padding-bottom: 50px; height: 700px;">
+
+            <div class="slideshow-container" id="sec3">
+
+                <div class="mySlides fade">
+                  <img src="jungle.jpg" style="width:100%;border: 0px;">
+                  <div class="text" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">First Image</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="star.jpg" style="width:100%;border: 0px">
+                  <div class="text" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Second Image</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="green.jpg" style="width:100%;border: 0px">
+                  <div class="text" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Third Image</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
+    </div>
+
+    <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:white; background-color: rgb(10, 10, 10); padding-bottom: 200px; padding-top: 50px;" id="sec4">
+
+      <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;">Example of a Table made in HTML</h1>
+
+        <table class="tg" style="height: 400px; text-align: center; width: 800px;">
+        <thead>
+          <tr>
+            <th class="tg-i7zr"></th>
+            <th class="tg-0lax">Column 1</th>
+            <th class="tg-0lax">Column 2</th>
+            <th class="tg-0lax">Column 3</th>
+            <th class="tg-0lax">Column 4</th>
+            <th class="tg-0lax">Column 5</th>
+            <th class="tg-0lax">Column 6</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">Row 1</td>
+            <td class="tg-0lax">Result 1</td>
+            <td class="tg-0lax">Result 2</td>
+            <td class="tg-0lax">Result 3</td>
+            <td class="tg-0lax">Result 4</td>
+            <td class="tg-0lax">Result 5</td>
+            <td class="tg-0lax">Result 6</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Row 2</td>
+            <td class="tg-0lax">Result 1</td>
+            <td class="tg-0lax">Result 2</td>
+            <td class="tg-0lax">Result 3</td>
+            <td class="tg-0lax">Result 4</td>
+            <td class="tg-0lax">Result 5</td>
+            <td class="tg-0lax">Result 6</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Row 3</td>
+            <td class="tg-0lax">Result 1</td>
+            <td class="tg-0lax">Result 2</td>
+            <td class="tg-0lax">Result 3</td>
+            <td class="tg-0lax">Result 4</td>
+            <td class="tg-0lax">Result 5</td>
+            <td class="tg-0lax">Result 6</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Row 4</td>
+            <td class="tg-0lax">Result 1</td>
+            <td class="tg-0lax">Result 2</td>
+            <td class="tg-0lax">Result 3</td>
+            <td class="tg-0lax">Result 4</td>
+            <td class="tg-0lax">Result 5</td>
+            <td class="tg-0lax">Result 6</td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+
+        <div class="picbg" id="sec5">
+          <h1 style="padding-top: 100px">Example of a Form</h1>
+          <form style="text-align: center; padding-bottom: 150px;" action="/formSuccess.html">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="lname" name="email">
+            <p>Which of these languages are your favourite?<br></p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <input type="submit" value="Submit">
+            <label for="javascript">JavaScript</label>
+    
+          </form>
+        </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+</body>
+</html>
